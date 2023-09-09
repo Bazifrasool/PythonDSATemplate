@@ -1,6 +1,6 @@
 # unordered , unchangable and no duplicates
-sample_set = {"A","B","C"}
-print(sample_set,type(sample_set))
+sample_set = {"A", "B", "C"}
+print(sample_set, type(sample_set))
 empty_set = set()
 empty_set.add("ABMS")
 empty_set.add("AABMS")
@@ -11,7 +11,7 @@ for x in empty_set:
     print(x)
 # for adding sets together i.e UNION
 empty_set.update(sample_set)
-list_temp = [x for x in range(0,10)]
+list_temp = [x for x in range(0, 10)]
 empty_set.update(list_temp)
 # to remove item --- .remove() // discard() does not error if not found
 # get union rets a new set
@@ -20,7 +20,7 @@ print("_________________________________--")
 # get intersection
 print(empty_set.intersection(sample_set))
 
-print(empty_set,type(empty_set))
+print(empty_set, type(empty_set))
 # Method	Description
 # add()	Adds an element to the set
 # clear()	Removes all the elements from the set
@@ -38,4 +38,4 @@ print(empty_set,type(empty_set))
 # symmetric_difference()	Returns a set with the symmetric differences of two sets
 # symmetric_difference_update()	inserts the symmetric differences from this set and another
 # union()	Return a set containing the union of sets
-# update()	Update the set with the union of this set and others
+# update()	Update the set with the union of this set and others
